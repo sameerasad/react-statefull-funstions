@@ -1,12 +1,14 @@
 import React, {useState}  from 'react'
 
-const app = () => {
+     const App = () => {
    
     let [count, setCount] = useState(0)
 
     return (
         <div>
-            <p1>click here {count}time</p1>
+            <h3>value of count={count}</h3>
+            <br/>
+            <button onClick={function(){setCount(++count)}}  >Click Me</button>
         </div>
     )
 }
