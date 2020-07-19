@@ -8,7 +8,7 @@ import React, {useState}  from 'react'
         <div>
             <h3>value of count={count}</h3>
             <br/>
-            <button onClick={function(){setCount(++count)}}  >Click Me</button>
+            <button onClick={()=>setCount(count+1)}  >Click Me</button>
         </div>
     )
 }
